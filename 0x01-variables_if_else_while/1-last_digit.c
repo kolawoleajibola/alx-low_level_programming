@@ -8,9 +8,12 @@
 */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+        int n;
+
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+	if (n % 10 > 5 && n % 10 != 0)
+
 
 
 return (0);
