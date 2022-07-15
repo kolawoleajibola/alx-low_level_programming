@@ -5,7 +5,7 @@
  *
  * @s: this is input string
  *
- * Return: Length of the string
+ * Return: Lenngth of the string
  */
 int _strlen(char *s)
 {
